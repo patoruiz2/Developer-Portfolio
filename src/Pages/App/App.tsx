@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <main>
+      <main className='flex flex-col h-fit'>
         <Home />
         <AboutMe />
         <ContactMe />

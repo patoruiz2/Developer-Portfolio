@@ -3,6 +3,7 @@ export type ExperienceT = {
   employerEntity: string;
   from: string;
   to: string;
+  icon?: string
 };
 
 export type StackT = {
